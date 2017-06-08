@@ -5137,9 +5137,11 @@ ul.bda-slist {
     background-color: var(--main-color);
     -webkit-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
+    opacity: 0.2;
 }
 .search-popout .date-picker .date-picker-hint .hint-value:hover {
     background-color: var(--hover-color);
+    opacity: 0.2;
 }
 .react-datepicker .react-datepicker__day-name,
 .react-datepicker .react-datepicker__day {
@@ -5150,6 +5152,7 @@ ul.bda-slist {
     background: transparent;
     border-color: hsla(0, 0%, 100%, .02) !important;
     color: rgba(85, 85, 85, .5);
+    opacity: 0.2;
 }
 .react-datepicker .react-datepicker__day:not(.react-datepicker__day--disabled) + .react-datepicker__day--disabled,
 .react-datepicker .react-datepicker__day:not(.react-datepicker__day--outside-month) + .react-datepicker__day--outside-month {
@@ -6224,9 +6227,11 @@ pre:hover .copybutton {
 /* NEW MESSAGES INDICATOR */
 .new-messages-indicator.new-messages-indicator-mention {
     background-color: var(--main-color);
+    opacity: 0.2;
 }
 .new-messages-indicator .icon.icon-unread-arrow {
     background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/arrow_down.svg);
+    opacity: 0.2;
 }
 .protip {
     color: #a8a8a8;
