@@ -1989,6 +1989,36 @@ div.control-group .shortcut-recorder input[type=text] {
     border-color: transparent !important;
     color: #fff;
 }
+
+div.scroller-NXV0-d {
+    background-color: transparent
+    padding-bottom : 10px;
+}
+
+/* Channels portion */
+div.container-RYiLUQ {
+	background-color : rgba(0, 0, 0, 0.48);
+}
+
+div.guilds-wrapper {
+    background-color : rgba(0, 0, 0, 0.48);
+}
+
+/* Settings/mute/deafen thing */
+div.container-iksrDt {
+    background-color : rgba(0, 0, 0, 0.60);
+    border-color : rgba(0, 0, 0, 0.60);
+}
+/* Connected to chat thing */
+div.container-3lnMWU {
+	background-color : rgba(0, 0, 0, .55);
+    border-color : transparent;
+}
+
+div.messages {
+    background-color : rgba(0,0,0, .05);
+}
+
 @keyframes input-pulse {
     0% {
         -webkit-box-shadow: 0 0 0 0 var(--main-color);
